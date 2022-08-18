@@ -1,0 +1,42 @@
+export default {
+  name:"projects",
+  title:"Projects",
+  type:"document",
+  fields:[
+    {
+      name:"title",
+      title:"Title",
+      type:"string"
+    },
+    {
+      name:"imageUrl",
+      title:"ImageUrl",
+      type:"image",
+      options:{
+        hotspot:true
+      }
+    },
+    {
+      name:"desc",
+      title:"Desc",
+      type:"string",
+     
+    },
+    {
+      name:"demoLink",
+      title:"DemoLink",
+      type:"string",
+     
+    },
+    {
+      name:"githubLink",
+      title:"GithubLink",
+      type:"string",
+    },
+    {
+      name:"category",
+      title:"Category",
+      type:"string",
+    },
+  ]
+}
